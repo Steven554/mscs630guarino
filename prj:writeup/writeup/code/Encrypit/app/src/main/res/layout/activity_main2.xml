@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewField"
+        android:lines="4"
+        android:layout_width="327dp"
+        android:layout_height="319dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="76dp"
+
+        android:shadowColor="@android:color/white"
+        android:shadowDx="3"
+        android:shadowDy="4"
+        android:shadowRadius="50"
+
+        android:text="Enter Secret Stuff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+
+    <Button
+        android:id="@+id/passwordField"
+        android:layout_width="94dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="144dp"
+        android:text="Key Alias"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/calcPwd"
+        android:layout_width="94dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="144dp"
+        android:text="Calc Pwd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/encrypt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/decrypt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
